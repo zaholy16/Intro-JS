@@ -1,10 +1,10 @@
 /* Crea un programa que imprima en consola los números impares del 1 al 50. */
 
-// for(let index = 1; index <= 50; index++){
-//     if(index % 2 == 0 ){
-//         console.log(index);
-//     }
-// }
+for(let index = 1; index <= 50; index++){
+    if(!(index % 2 == 0 )){
+        console.log(index);
+    }
+}
 
 /* Crea un programa que pregunte al usuario un número. Usando el archivo de arreglo de Pokémons, mostrar solo los nombres de los Pokémons cuyos números que son múltiplos de 5 desde 1 hasta el número introducido por el usuario. */
 
@@ -120,10 +120,10 @@
 
 /* Crea un programa que recorra el arreglo [4,“dos”,8,“tres”,5,9,1,“cero”] y muestre en consola solo los elementos que son tipo número. */
 
-let array = [4,"dos",8,"tres",5,9,1,"cero"];
+// let array = [4,"dos",8,"tres",5,9,1,"cero"];
 
-for(let index = 0; index < array.length-1; index++){
-    if(!isNaN(array[index])){
-        console.log(array[index]);
-    }
-}
+// for(let index = 0; index < array.length-1; index++){
+//     if(!isNaN(array[index])){
+//         console.log(array[index]);
+//     }
+// }
