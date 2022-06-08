@@ -111,23 +111,29 @@ var pokemons =
   'voltorb' ];
 
 let number = prompt("Ingresa un numero, por favor");
-let newPokemons = pokemons.slice(1, number);
-console.log(newPokemons);
 
-for(let index = 0; index <= newPokemons.length; index++){
-    if(index % 5 == 0){
-        console.log(index + ": " + newPokemons[index]);
-    }
-}
+// for(let index = 1; index <= number; index++){
+//     if(index % 5 == 0){
+//         console.log(index + ": " + pokemons[index]);
+//     }
+// }
 
+// let newPokemons = pokemons.slice(1, number);
+// console.log(newPokemons);
+
+// for(let index = 1; index <= newPokemons.length; index++){
+//     if(index % 5 == 0){
+//         console.log(index + ": " + newPokemons[index]);
+//     }
+// }
 
 
 /* Crea un programa que recorra el arreglo [4,“dos”,8,“tres”,5,9,1,“cero”] y muestre en consola solo los elementos que son tipo número. */
 
-// let array = [4,"dos",8,"tres",5,9,1,"cero"];
+let array = [4,"dos",8,"tres",5,9,1,"cero"];
 
-// for(let index = 0; index < array.length-1; index++){
-//     if(!isNaN(array[index])){
-//         console.log(array[index]);
-//     }
-// }
+for(let index = 0; index < array.length-1; index++){
+    if(typeof array[index] == 'number'){
+        console.log(array[index]);
+    }
+}
